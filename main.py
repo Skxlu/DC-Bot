@@ -3,7 +3,7 @@ from discord.ext import commands
 
 intents = discord.Intents.default()
 
-bot = discord.Bot(intent=intents, debug_guilds=[1242583846139068537,1242583846139068537])
+bot = discord.Bot(intent=intents, debug_guilds=[None])
 
 @bot.event
 async def on_ready():
