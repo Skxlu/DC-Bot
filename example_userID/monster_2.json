@@ -1,0 +1,64 @@
+{
+  "monster": {
+    "monster_id": "Monster_001",
+
+    "stats": {
+      "HP": 12030,
+      "AT": 784,
+      "DE": 567
+    },
+
+    "exp": 12302,
+
+    "level": 10,
+
+    "skill_1": "formel",
+
+    "skill_2": "formel",
+
+    "skill_3": "formel",
+
+    "passive": "effect",
+    
+    "monster_rune_1": {
+      "rarity": 0,
+      "level": 1,
+      "stat_1": {
+        "at": 10
+      },
+      "stat_2": {
+        "at": 0
+      },
+      "stat_3": {
+        "at": 0
+      }
+    },
+
+    "monster_rune_2": {
+      "rarity": 0,
+      "level": 1,
+      "stat_1": {
+        "at": 10
+      },
+      "stat_2": {
+        "at": 0
+      },
+      "stat_3": {
+        "at": 0
+      }
+    },
+    "monster_rune_3": {
+      "rarity": 0,
+      "level": 1,
+      "stat_1": {
+        "at": 10
+      },
+      "stat_2": {
+        "at": 0
+      },
+      "stat_3": {
+        "at": 0
+      }
+    }
+  }
+}
