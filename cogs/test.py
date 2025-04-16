@@ -16,6 +16,11 @@ class Verify(commands.Cog):
         await ctx.respond("Hs")
         await ctx.channel.send("Text", view=Button())
 
+    @slash_command()
+    async def hell0(self, ctx):
+        await ctx.respond("Hallo")
+
+
 def setup(client):
     client.add_cog(Verify(client))
 
