@@ -17,8 +17,8 @@ class Menu(commands.Cog):
         await ctx.channel.send("Text-2", view=Button())
 
     @slash_command()
-    async def hello_2(self, ctx):
-        await ctx.respond("Hallo")
+    async def menu(self, ctx):
+        await ctx.respond("Öffnet das Menu")
 
 
 def setup(client):
