@@ -13,7 +13,7 @@ class Menu(commands.Cog):
 
     @slash_command()
     async def test_2(self, ctx):
-        await ctx.respond("Hs")
+        await ctx.respond("süß")
         await ctx.channel.send("Text-2", view=Button())
 
     @slash_command()
